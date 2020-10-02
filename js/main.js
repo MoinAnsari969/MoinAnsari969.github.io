@@ -152,4 +152,9 @@ $(window).load(function(){
     }); 
   });
 });
+
+    $("#btnDownloadResume").click(function () {
+        window.print();
+    });
+    
 })(jQuery);
